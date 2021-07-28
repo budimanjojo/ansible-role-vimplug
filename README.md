@@ -6,9 +6,10 @@ Role to install [vim-plug](https://github.com/junegunn/vim-plug) and vim plugins
 Supported OS Families
 ---------------------
 
+- Ubuntu (tested)
 - Arch Linux (tested)
 - Redhat (untested)
-- Other Linux distributions supported by 'package' module should work just fine
+- All the other linux distros should work just fine
 
 Role Variables
 --------------
