@@ -1,0 +1,33 @@
+---
+galaxy_info:
+  role_name: dotfiles
+  author: Budiman JOJO
+  description: Role to link dotfiles from repository to machine
+  issue_tracker_url: http://github.com.com/budimanjojo/ansible-role-dotfiles/issues
+  license: license (MIT)
+  min_ansible_version: 2.1
+  platforms:
+  - name: Archlinux
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+
+  galaxy_tags:
+  - system
+  - packaging
+  - linux
+  - server
+  - development
+  - ubuntu
+  - archlinux
+  - debian
+
+dependencies: []
