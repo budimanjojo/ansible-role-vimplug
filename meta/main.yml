@@ -1,9 +1,9 @@
 ---
 galaxy_info:
-  role_name: dotfiles
+  role_name: vimplug
   author: Budiman JOJO
-  description: Role to link dotfiles from repository to machine
-  issue_tracker_url: http://github.com.com/budimanjojo/ansible-role-dotfiles/issues
+  description: Role to install vim-plug and vim plugins
+  issue_tracker_url: http://github.com.com/budimanjojo/ansible-role-vimplug/issues
   license: license (MIT)
   min_ansible_version: 2.1
   platforms:
@@ -29,5 +29,7 @@ galaxy_info:
   - ubuntu
   - archlinux
   - debian
+  - vim
+  - vim-plug
 
 dependencies: []
