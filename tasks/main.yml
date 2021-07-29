@@ -1,5 +1,5 @@
 ---
-- name: Ensure needed packages exists
+- name: Ensure needed packages exist
   package:
     name: "{{ vimplug_packages }}"
     state: present
@@ -31,7 +31,7 @@
       modification_time: preserve
       access_time: preserve
 
-  - name: Ensure needed lines exists
+  - name: Ensure needed lines exist
     lineinfile:
       path: "{{ vimplug_vimrc_path }}"
       line: "{{ item }}"
