@@ -3,7 +3,7 @@ galaxy_info:
   role_name: vimplug
   author: Budiman JOJO
   description: Role to install vim-plug and vim plugins
-  issue_tracker_url: http://github.com.com/budimanjojo/ansible-role-vimplug/issues
+  issue_tracker_url: http://github.com/budimanjojo/ansible-role-vimplug/issues
   license: license (MIT)
   min_ansible_version: 2.1
   platforms:
