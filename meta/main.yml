@@ -30,6 +30,6 @@ galaxy_info:
   - archlinux
   - debian
   - vim
-  - vim-plug
+  - vimplug
 
 dependencies: []
