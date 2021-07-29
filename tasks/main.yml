@@ -43,7 +43,7 @@
   - name: Putting plugins into vimrc
     lineinfile:
       path: "{{ vimplug_vimrc_path }}"
-      line: "Plug '{{ item.name }}'{{ ', ' ~ item.options|list|join(', ')if item.options is defined else '' }}"
+      line: "Plug '{{ item.name }}'{{ ', ' ~ item.options if item.options is defined else '' }}"
       insertbefore: "^call plug#end()"
       firstmatch: yes
     loop: "{{ vimplug_plugins }}"

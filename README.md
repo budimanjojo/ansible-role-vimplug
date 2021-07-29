@@ -28,7 +28,7 @@ vimplug_packages: []
 vimplug_plugins
 - name: name of the plugin (string)
   options:
-  - key: value (string)
+    key: value (string)
 ```
 
 Dependencies
@@ -50,11 +50,11 @@ Here is an example playbook:
     vimplug_plugins:
     - name: nsf/gocode
       options:
-      - tag: v.20150303
-      - rtp: vim
-    - name: neoclid/coc/nvim
+        tag: v.20150303
+        rtp: vim
+    - name: neoclide/coc.nvim
       options:
-      - branch: release
+        branch: release
     - nama: junegunn/vim-easy-align
 
   roles:
