@@ -21,9 +21,7 @@
       dest: "{{ vimplug_vim_datadir }}/autoload/plug.vim"
     when: (vimplug_installed.stat.isreg is not defined) or
           (not vimplug_installed.stat.isreg)
-  become: "{{ vimplug_become | bool }}"
 
-- block:
   - name: Ensure vimrc exists
     file:
       path: "{{ vimplug_vimrc_path }}"
